@@ -2,6 +2,8 @@
 
 ## Versions
 
+### 0.1.5: Fixed minor bug
+
 ### 0.1.4: Added comments to script
 
 * Added comments to my_script.js

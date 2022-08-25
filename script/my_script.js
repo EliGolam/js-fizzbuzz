@@ -22,6 +22,7 @@ for(item = 1; item <= total_items; item++) {
     square.classList.add('square', 'd-flex', 'justify-content-center', 'align-items-center');
     box.append(square);
 
+
     // ******************************
     // SWITCH to determine the content of each square and its further styling
     switch (true) { // Pass Parameter "true" to evaluate Boolean
@@ -45,6 +46,7 @@ for(item = 1; item <= total_items; item++) {
             square.classList.add('bg-clr-primary');
         }
     }
+    
     
     // ******************************
     // Adding the content evaluated through SWITCH to square
