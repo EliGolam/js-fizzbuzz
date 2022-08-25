@@ -1,12 +1,13 @@
-# js-fizzbuzz
-Exercise Boolean: Fizz-Buzz
+# Exercise Boolean: Fizz-Buzz
 
 ## Versions
+
+### 0.1.1: Fixed README
 
 ## 0.1: Completed Functional linked Script
 
 * Linked JS to DOM
-* Styled though CSS 
+* Styled though CSS
 * Implemented simple Hover effect
 
 ### 0.0.3: Created functional JS Algorithm
