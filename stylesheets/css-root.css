@@ -3,9 +3,10 @@
 
 :root {
     /* COLOR SCHEME */
-    --clr-primary: #08a162;
-    --clr-secondary: #ff9318;
-    --clr-tertiary: #da3577;
+    --clr-primary: #1389b2;
+    --clr-secondary: #0cd6a1;
+    --clr-tertiary: #ffd166;
+    --clr-accent: #f0466f;
 
     --clr-black: #000000;
     --clr-dark-grey: #282828;
@@ -48,19 +49,22 @@
 
 body {
     font-family: var(--fontfamily-default);
+    color: var(--clr-black);
+    background-color: #083b4c;
 }
 
 .bg-clr-primary {
     background-color: var(--clr-primary);
-    color: var(--clr-white);
 }
 
 .bg-clr-secondary {
     background-color: var(--clr-secondary);
-    color: var(--clr-black);
 }
 
 .bg-clr-tertiary {
     background-color: var(--clr-tertiary);
-    color: var(--clr-white);
+}
+
+.bg-clr-accent {
+    background-color: var(--clr-accent);
 }

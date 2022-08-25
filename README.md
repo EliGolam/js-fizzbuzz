@@ -2,6 +2,12 @@
 
 ## Versions
 
+### 0.1.2: Improved CSS Styling
+
+* Changed Color Scheme
+* Added H1 to HTML
+* Improved Hover Effect
+
 ### 0.1.1: Fixed README
 
 ## 0.1: Completed Functional linked Script

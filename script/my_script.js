@@ -17,7 +17,7 @@ for(item = 1; item <= total_items; item++) {
     switch (true) { // Pass Parameter "true" to evaluate Boolean
         case (item % 15 === 0):{
             message = 'FizzBuzz';
-            square.classList.add('bg-clr-primary');
+            square.classList.add('bg-clr-accent');
             break;  
         }
         case (item % 3 === 0): {
@@ -32,6 +32,7 @@ for(item = 1; item <= total_items; item++) {
         }
         default: {
             message = item;
+            square.classList.add('bg-clr-primary');
         }
     }
 
