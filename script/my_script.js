@@ -47,4 +47,16 @@ for(item = 1; item <= total_items; item++) {
     // }
     console.log(message);
     square.append(message);
+
+    square.addEventListener ('click', () => {
+        square.innerHTML = 'Popped!';
+        square.classList.remove('bg-clr-accent', 'bg-clr-secondary', 'bg-clr-tertiary', 'bg-clr-primary');
+        square.classList.add('bg-light');
+    })
 }
+
+const resetBtn = document.querySelector('.reset-btn');
+
+resetBtn.addEventListener('click', () => {
+    window.location.href=window.location.href;
+})

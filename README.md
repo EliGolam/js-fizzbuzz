@@ -2,6 +2,11 @@
 
 ## Versions
 
+### 0.1.3: Added various interactive events
+
+* Added Popped event on click
+* Added refresh button
+
 ### 0.1.2: Improved CSS Styling
 
 * Changed Color Scheme
