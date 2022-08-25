@@ -3,10 +3,14 @@ Exercise Boolean: Fizz-Buzz
 
 ## Versions
 
+### 0.0.3: Created functional JS Algorith
+
+* Not yet linked to DOM
+
 ### 0.0.2: Added HTML Boilerplate
 
 * Added METADATA
-* Added Bootstrap CSS and JS 
+* Added Bootstrap CSS and JS
 * Linked custom CSS files
 * Linked custom script file
 
