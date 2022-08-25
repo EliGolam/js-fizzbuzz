@@ -3,9 +3,9 @@
 
 :root {
     /* COLOR SCHEME */
-    --clr-primary: #b91450;
-    --clr-secondary: #080B12;
-    --clr-secondary-transparent: #080b1262;
+    --clr-primary: #08a162;
+    --clr-secondary: #ff9318;
+    --clr-tertiary: #da3577;
 
     --clr-black: #000000;
     --clr-dark-grey: #282828;
@@ -48,4 +48,19 @@
 
 body {
     font-family: var(--fontfamily-default);
+}
+
+.bg-clr-primary {
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+}
+
+.bg-clr-secondary {
+    background-color: var(--clr-secondary);
+    color: var(--clr-black);
+}
+
+.bg-clr-tertiary {
+    background-color: var(--clr-tertiary);
+    color: var(--clr-white);
 }

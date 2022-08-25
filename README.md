@@ -3,7 +3,13 @@ Exercise Boolean: Fizz-Buzz
 
 ## Versions
 
-### 0.0.3: Created functional JS Algorith
+## 0.1: Completed Functional linked Script
+
+* Linked JS to DOM
+* Styled though CSS 
+* Implemented simple Hover effect
+
+### 0.0.3: Created functional JS Algorithm
 
 * Not yet linked to DOM
 

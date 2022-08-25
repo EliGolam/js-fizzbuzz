@@ -1,0 +1,20 @@
+.square {
+    width: calc(100% / 10);
+    aspect-ratio: 1 / 1;
+    border: 1px solid var(--clr-dark-grey);
+    
+    transition: 
+        background-color 200ms ease-in-out,
+        color 200ms ease-in-out;
+
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+}
+
+.ms_box {
+    border: 1px solid var(--clr-dark-grey);
+}
