@@ -2,6 +2,10 @@
 
 ## Versions
 
+### 0.1.4: Added comments to script
+
+* Added comments to my_script.js
+
 ### 0.1.3: Added various interactive events
 
 * Added Popped event on click
