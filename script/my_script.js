@@ -31,22 +31,22 @@ for(item = 1; item <= total_items; item++) {
     switch (true) { // Pass Parameter "true" to evaluate Boolean
         case (item % 15 === 0):{
             message = 'FizzBuzz';
-            square.classList.add('bg-clr-accent');
+            square.classList.add('bg-clr-accent', 'fw-bold');
             break;  
         }
         case (item % 3 === 0): {
             message = 'Fizz'
-            square.classList.add('bg-clr-secondary');
+            square.classList.add('bg-clr-secondary', 'fs-4');
             break;
         }
         case (item % 5 === 0): {
             message = 'Buzz'
-            square.classList.add('bg-clr-tertiary')
+            square.classList.add('bg-clr-tertiary', 'fs-4')
             break;
         }
         default: {
             message = item;
-            square.classList.add('bg-clr-primary');
+            square.classList.add('bg-clr-primary', 'fs-4');
         }
     }
     
