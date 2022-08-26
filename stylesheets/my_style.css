@@ -1,5 +1,5 @@
 .title {
-    font-size: 4rem;
+    font-size: var(--fs-2);
 }
 
 .ms_box {
@@ -27,3 +27,4 @@
     transform: scale(1.2);
     border-radius: 6px;
 }
+

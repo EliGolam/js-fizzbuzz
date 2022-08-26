@@ -2,6 +2,8 @@
 
 ## Versions
 
+### 0.1.6: Fixed overflowing text on smaller screens
+
 ### 0.1.5: Fixed minor bug
 
 ### 0.1.4: Added comments to script

@@ -18,8 +18,11 @@ for(item = 1; item <= total_items; item++) {
     // ******************************
     // Create square Element
     const square = document.createElement('div');
+    const text = document.createElement('p');
     // Adding Styling to square through Bootstrap CSS
     square.classList.add('square', 'd-flex', 'justify-content-center', 'align-items-center');
+    text.classList.add('m-0', 'd-none', 'd-lg-block', 'square_text');
+    square.append(text);
     box.append(square);
 
 
@@ -51,11 +54,11 @@ for(item = 1; item <= total_items; item++) {
     // ******************************
     // Adding the content evaluated through SWITCH to square
     console.log(message);
-    square.append(message);
+    text.append(message);
 
     // Simple eventListener that "pops" the element on click
     square.addEventListener ('click', () => {
-        square.innerHTML = 'Popped!';
+        text.innerHTML = 'Popped!';
         square.classList.remove('bg-clr-accent', 'bg-clr-secondary', 'bg-clr-tertiary', 'bg-clr-primary');
         square.classList.add('bg-light');
     })
